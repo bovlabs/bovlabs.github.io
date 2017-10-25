@@ -803,10 +803,12 @@ a {
     background-image: url(images/member_6.jpg);
 
 }
+
 #member_7 {
     background-image: url(images/member_7.jpg);
 
 }
+
 .test_link{
   z-index:9999;
 }
