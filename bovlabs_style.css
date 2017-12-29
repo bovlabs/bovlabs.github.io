@@ -471,10 +471,6 @@ a {
     clear: both
 }
 
-.section-container.section-heading h3 {
-    position: relative
-}
-
 .section-container.section-heading h3::after {
     content: '';
     position: absolute;
@@ -1191,4 +1187,21 @@ a {
     text-align: center;
     color: #333;
     top: 3px
+}
+.contact-icons {
+	text-align: center;
+	height: 30px;
+}
+.contact-icon {
+	height: 25px;
+    width: 25px;
+	margin-top: 10px;
+}
+.highlight {
+	color: #00425a;
+}
+.underline {
+	border-top: 2px solid #00425a;
+    width: 100px;
+    margin: 0 auto;
 }
