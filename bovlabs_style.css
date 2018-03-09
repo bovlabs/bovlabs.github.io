@@ -30,6 +30,10 @@ body {
     overflow-x: hidden
 }
 
+.bold {
+    font-weight: 900
+}
+
 @-webkit-keyframes fontfix {
     from,
     to {
@@ -299,7 +303,7 @@ h3.cases {
 }
 
 .scroll_footer_home {
-    top: 80%;
+    top: 70% !important;
     position: absolute;
     margin: 0 auto 0 -10%;
     display: inline-block;
@@ -327,6 +331,11 @@ h3.cases {
     position: relative;
     z-index: 10;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .3)
+}
+
+.scroll_footer_home .news_item_link {
+    position: relative;
+    margin: 0 0 25px 0;
 }
 
 #top_right {
@@ -375,12 +384,12 @@ h3.cases {
     text-shadow: 0 1px 3px rgba(0, 0, 0, .3)
 }
 
-.scroll_footer_home:hover a {
+.scroll_footer_home .news_item_link:hover a {
     background: rgba(0, 0, 0, .2);
     font-size: 1.2em
 }
 
-.scroll_footer_home:hover .border_square {
+.scroll_footer_home .news_item_link:hover .border_square {
     width: 50%;
     height: 50%
 }
