@@ -763,7 +763,8 @@ a {
     float: left;
     display: inline-block;
     width: 29%;
-    margin: 34px 2%
+    margin: 34px 2%;
+    height: 550px;
 }
 
 .about_team_member p {
@@ -805,7 +806,7 @@ a {
 }
 
 #member_6 {
-    background-image: url(images/member_6.jpg);
+    background-image: url(images/member_6.png);
 }
 
 #member_7 {
@@ -817,7 +818,7 @@ a {
 }
 
 #member_9 {
-    background-image: url(images/member_9.png);
+    background-image: url(images/member_9.jpg);
 }
 
 .test_link{
@@ -1219,4 +1220,52 @@ a {
 	border-top: 2px solid #00425a;
     width: 100px;
     margin: 0 auto;
+}
+.about-title::after {
+    display: none !important; 
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #cbd3d8;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+/* .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+} */
+
+.tooltip .show {
+    font-weight: 500;
+    color: #00425a;
+    border-bottom: 1px solid #14415a;
+    cursor: pointer;
 }
