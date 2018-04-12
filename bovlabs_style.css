@@ -781,7 +781,7 @@ a {
     background-repeat: no-repeat;
     border-radius: 50%;
     box-sizing: border-box;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 #member_1 {
@@ -797,7 +797,7 @@ a {
 }
 
 #member_4 {
-    background-image: url(images/member_4.png)
+    background-image: url(images/member_4.jpg)
 }
 
 #member_5 {
@@ -806,12 +806,18 @@ a {
 
 #member_6 {
     background-image: url(images/member_6.jpg);
-
 }
 
 #member_7 {
-    background-image: url(images/member_7.jpg);
+    background-image: url(images/member_7.png);
+}
 
+#member_8 {
+    background-image: url(images/member_8.png);
+}
+
+#member_9 {
+    background-image: url(images/member_9.png);
 }
 
 .test_link{
