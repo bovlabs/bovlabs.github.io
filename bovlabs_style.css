@@ -1014,7 +1014,7 @@ a {
     transition: .3s ease-in-out all
 }
 
-#news_1 {
+#news_1, .news_pic {
     float: left;
    /* background-image: url(images/news_1.jpg);
     background-size: cover;
