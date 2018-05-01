@@ -386,7 +386,7 @@ h3.cases {
 
 .scroll_footer_home .news_item_link:hover a {
     background: rgba(0, 0, 0, .2);
-    font-size: 1.2em
+    font-size: 1.1em
 }
 
 .scroll_footer_home .news_item_link:hover .border_square {
@@ -977,7 +977,7 @@ a {
 .news_item h2 {
     font-size: 1em;
     margin: 5px 10px;
-    width: 100%;
+    width: 95%;
     line-height: 26px
 }
 
@@ -1014,7 +1014,7 @@ a {
     transition: .3s ease-in-out all
 }
 
-#news_1 {
+#news_1, .news_pic {
     float: left;
    /* background-image: url(images/news_1.jpg);
     background-size: cover;
