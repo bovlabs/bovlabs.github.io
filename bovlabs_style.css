@@ -1117,6 +1117,10 @@ a {
     background-image: url(images/india.jpg)
 }
 
+#france_pic {
+    background-image: url(images/france.jpg)
+}
+
 .info_pic {
     display: block;
     width: 100%;
@@ -1153,6 +1157,11 @@ a {
 #india_point {
     top: 46%;
     left: 65%
+}
+
+#france_point {
+    top: 35%;
+    left: 41.85%;
 }
 
 .footer_container {

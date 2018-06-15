@@ -835,7 +835,7 @@
 					</div>
 
 
-					<div class="info_box" id="india">
+					<!-- <div class="info_box" id="india">
 						<div class="info_pic" id="india_pic"></div>
 						<div class="button_box">
 							<div class="border_square button button_top_right"></div>
@@ -845,7 +845,19 @@
 							<h4>India
 								<br>702 B Block, Skyline Atlantis</br>Old Madras Road,</br>Bangalore:560016</h4>
 						</div>
-					</div>
+					</div> -->
+
+					<div class="info_box" id="france">
+						<div class="info_pic" id="france_pic"></div>
+						<div class="button_box">
+							<div class="border_square button button_top_right"></div>
+							<div class="border_square button button_bottom_right"></div>
+							<div class="border_square button button_top_left"></div>
+							<div class="border_square button button_bottom_left"></div>
+							<h4>France
+								<br>550 rue Denis Papin,</br>La Duranne,</br>13100 Aix-en-Provence</h4>
+						</div>
+					</div>					
 
 				</div>
 
@@ -861,11 +873,16 @@
 							<img src="images/point.svg" ALT="O" />
 						</a>
 					</div>
-					<div class="map_point" id="india_point">
+					<!-- <div class="map_point" id="india_point">
 						<a href="#india">
 							<img src="images/point.svg" ALT="O" />
 						</a>
-					</div>
+					</div> -->
+					<div class="map_point" id="france_point">
+						<a href="#france">
+							<img src="images/point.svg" ALT="O" />
+						</a>
+					</div>					
 				</div>
 
 			</div>
@@ -930,6 +947,7 @@
 		$('.menu_button').hide();
 		$('#swizerland').hide();
 		$('#india').hide();
+		$('#france').hide();
 		$('.solution_description_box  ').hide();
 
 		$('.map_point a').on('click', function (e) {
