@@ -71,6 +71,9 @@
 				<li>
 					<img src="images/slider-one.jpg" alt="sliders" />
 				</li>
+				<li>
+					<img src="images/slider-sncf.jpg" alt="sliders" />
+				</li>
 				<!--<li><img src="images/slider-two.jpg" alt="sliders"/></li>-->
 				<!--<li><img src="images/slider-three.jpg" alt="sliders"/></li>-->
 				<!--<li><img src="images/slider-four.jpg" alt="sliders"/></li>-->
@@ -81,6 +84,13 @@
 			<h1 id="fix-header-wrp"> Empowering community using
 				<br>Distributed Energy Resources marketplace.</h1>
 			<div class="scroll_footer_home">
+				<div class="news_item_link">
+					<div class="border_square home" id="top_right"></div>
+					<div class="border_square home" id="bottom_right"></div>
+					<div class="border_square home" id="top_left"></div>
+					<div class="border_square home" id="bottom_left"></div>
+					<a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:6428712948344201216/" id="container_wrapper">V2G Integration Project with SNCF/The Camp signed</a>
+				</div>
 				<div class="news_item_link">
 					<div class="border_square home" id="top_right"></div>
 					<div class="border_square home" id="bottom_right"></div>
@@ -669,6 +679,17 @@
 				</p>
 
 				<div class="partner-logos">
+					<a target="_blank" href="https://www.sncf.com/sncv1/en/partners/gares-connexions">
+						<div class="partners">
+							<img src="images/sncf_logo.png" alt="">
+						</div>
+					</a>
+					<div class="partners_nil"></div>
+					<a target="_blank" href="https://thecamp.fr">
+						<div class="partners">
+							<img src="images/thecamp_logo.png" alt="">
+						</div>
+					</a>
 					<a target="_blank" href="http://www.erockhold.com">
 						<div class="partners">
 							<img src="images/erock.png" alt="">
@@ -680,11 +701,6 @@
 							<img src="images/cryptovalley.png" alt="">
 						</div>
 					</a>
-					<div class="partners_nil"></div>
-
-					<div class="partners">
-						<img src="images/pal_technology.png" alt="">
-					</div>
 					<!--<div class="partners"><img src="images/logo.png" alt=""></div>
         		<div class="partners"><img src="images/logo.png" alt=""></div>
         		<div class="partners"><img src="images/logo.png" alt=""></div>-->
@@ -948,10 +964,13 @@
 		$('.news_item').find("a").attr("target", "_blank");
 
 		$('.scroll_footer_home a, #nav_bar li a').bind('click', function (e) {
-			e.preventDefault();
 			var anchor = $(this).attr('href');
-			$('html,body').animate({ scrollTop: $(anchor).offset().top }, 500);
-
+			if (anchor && anchor.startsWith('http')) {
+				return;
+			} else {
+				e.preventDefault();
+				$('html,body').animate({ scrollTop: $(anchor).offset().top }, 500);
+			}
 		});
 
 

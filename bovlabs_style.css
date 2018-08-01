@@ -320,7 +320,7 @@ h3.cases {
 .scroll_footer_home a {
     display: inline-block;
     line-height: 50px;
-    background: rgba(255, 255, 255, .15);
+    background: rgba(0, 60, 99, .15);
     margin: 0 auto;
     /*! padding: 0 30px; */
     color: #fff;
