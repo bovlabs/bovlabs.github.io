@@ -1,23 +1,18 @@
-*,
-body,
-html {
+*, body, html {
     margin: 0;
     padding: 0
 }
 
-#home,
-.main-banner {
+#home, .main-banner {
     position: relative
 }
 
-#home h1,
-.bx-slider h4 {
+#home h1, .bx-slider h4 {
     max-width: 1170px;
     text-align: center
 }
 
-#home h1 span,
-.bx-slider h4 span {
+#home h1 span, .bx-slider h4 span {
     text-transform: uppercase
 }
 
@@ -35,14 +30,12 @@ body {
 }
 
 @-webkit-keyframes fontfix {
-    from,
-    to {
+    from, to {
         opacity: 1
     }
 }
 
-body,
-html {
+body, html {
     transition: opacity .4s ease 0s;
     -webkit-transition: opacity .4s ease 0s;
     font-family: Ubuntu, sans-serif;
@@ -58,8 +51,7 @@ html {
     margin: 0 auto
 }
 
-#container_wrapper,
-#container_wrapper .section {
+#container_wrapper, #container_wrapper .section {
     width: 100%;
     height: 100%
 }
@@ -108,9 +100,7 @@ html {
     margin: 0 auto
 }
 
-#menu_logo img,
-#menu_logo_two img,
-.nav_sticky {
+#menu_logo img, #menu_logo_two img, .nav_sticky {
     width: 100%;
     height: auto
 }
@@ -131,8 +121,7 @@ html {
     transition: .3s ease all
 }
 
-#menu_logo,
-#menu_logo_two {
+#menu_logo, #menu_logo_two {
     margin: 60px 0 0 60px;
     height: 66px;
     background-size: 100% auto;
@@ -151,14 +140,11 @@ html {
     background-image: url(images/logo.png)
 }
 
-#menu_logo a,
-#menu_logo_two a {
+#menu_logo a, #menu_logo_two a {
     display: block
 }
 
-#menu_logo_two,
-#nav_bar,
-.nav_menu li {
+#menu_logo_two, #nav_bar, .nav_menu li {
     display: inline-block;
     position: relative
 }
@@ -197,8 +183,7 @@ html {
     text-shadow: none
 }
 
-.nav_menu li::after,
-.nav_menu li::before {
+.nav_menu li::after, .nav_menu li::before {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -220,8 +205,7 @@ html {
     transform: translateX(+5px) translateY(+5px)
 }
 
-#nav_bar li:hover:before,
-.shadow .nav_menu li::before {
+#nav_bar li:hover:before, .shadow .nav_menu li::before {
     border-top: 3px solid #00425a;
     border-left: 3px solid #00425a
 }
@@ -238,14 +222,12 @@ html {
     transform: translateX(-5px) translateY(-5px)
 }
 
-#nav_bar li:hover:after,
-.shadow .nav_menu li::after {
+#nav_bar li:hover:after, .shadow .nav_menu li::after {
     border-bottom: 3px solid #00425a;
     border-right: 3px solid #00425a
 }
 
-#nav_bar li:hover:after,
-#nav_bar li:hover:before {
+#nav_bar li:hover:after, #nav_bar li:hover:before {
     opacity: 1;
     -webkit-transform: translateX(0) translateY(0);
     -moz-transform: translateX(0) translateY(0);
@@ -307,7 +289,7 @@ h3.cases {
     position: absolute;
     margin: 0 auto 0 -10%;
     display: inline-block;
-    width: 20%;
+    width: 22%;
     height: 50px;
     left: 50%
 }
@@ -350,14 +332,12 @@ h3.cases {
     border-width: 5px
 }
 
-#bottom_left,
-#bottom_right {
+#bottom_left, #bottom_right {
     bottom: 0;
     border-bottom: 5px solid #fff
 }
 
-#bottom_left,
-#top_left {
+#bottom_left, #top_left {
     left: 0;
     border-left: 5px solid #fff
 }
@@ -367,8 +347,7 @@ h3.cases {
     border-right: 5px solid #fff
 }
 
-.button_bottom_left,
-.button_bottom_right {
+.button_bottom_left, .button_bottom_right {
     border-bottom: 5px solid #00425a;
     bottom: 0
 }
@@ -378,8 +357,7 @@ h3.cases {
     border-top: 5px solid #fff
 }
 
-#home h1,
-.section-fixed-bg h2 {
+#home h1, .section-fixed-bg h2 {
     top: 50%;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .3)
 }
@@ -410,9 +388,7 @@ h3.cases {
     color: #fff
 }
 
-.problem-container h3,
-.problem-detail h2,
-.problem-detail p {
+.problem-container h3, .problem-detail h2, .problem-detail p {
     font-family: "Droid Sans"
 }
 
@@ -469,9 +445,13 @@ a {
 }
 
 .section-container {
-   width: 90%;
+    width: 90%;
     max-width: 768px;
     margin: 0 auto
+}
+
+.section-container-team {
+    max-width: 990px;
 }
 
 .section-container::after {
@@ -533,26 +513,22 @@ a {
     font-weight: 500
 }
 
-.button_bottom_left,
-.button_top_left {
+.button_bottom_left, .button_top_left {
     left: 0;
     border-left: 5px solid #00425a
 }
 
-.button_top_left,
-.button_top_right {
+.button_top_left, .button_top_right {
     top: 0;
     border-top: 5px solid #00425a
 }
 
-.button_bottom_right,
-.button_top_right {
+.button_bottom_right, .button_top_right {
     right: 0;
     border-right: 5px solid #00425a
 }
 
-.section-container h3,
-.section-container p {
+.section-container h3, .section-container p {
     font-family: "Droid Sans"
 }
 
@@ -616,8 +592,7 @@ a {
     text-align: left
 }
 
-.button_box h4,
-.solution_button_box h4 {
+.button_box h4, .solution_button_box h4 {
     color: #333;
     text-align: center;
     font-size: 1em
@@ -651,8 +626,7 @@ a {
     background-image: url(images/solution.jpg)
 }
 
-.download_box h4,
-.solution_button_box h4 {
+.download_box h4, .solution_button_box h4 {
     background: rgba(0, 60, 99, .15);
     position: relative
 }
@@ -671,8 +645,7 @@ a {
     vertical-align: top
 }
 
-.about_team_member .button_bottom_left,
-.about_team_member .button_bottom_right {
+.about_team_member .button_bottom_left, .about_team_member .button_bottom_right {
     bottom: 0
 }
 
@@ -691,8 +664,7 @@ a {
     float: right
 }
 
-.download_box a,
-.download_box h4 {
+.download_box a, .download_box h4 {
     display: block;
     color: #333;
     transition: .5s ease-out all
@@ -767,6 +739,10 @@ a {
     height: 550px;
 }
 
+.member_by_4 {
+    width: 20%;
+}
+
 .about_team_member p {
     text-align: left
 }
@@ -821,9 +797,10 @@ a {
     background-image: url(images/member_9.jpg);
 }
 
-.test_link{
-  z-index:9999;
+.test_link {
+    z-index: 9999;
 }
+
 .about_team .button_box {
     max-width: 100%
 }
@@ -898,13 +875,14 @@ a {
     padding: 5px 19px;
     align-items: center
 }
+
 .partners_nil {
     width: 27%;
     height: 80px;
     float: left;
     margin: 7px 4px;
     display: flex;
-  /**  border: 1px solid #cecccc;
+    /**  border: 1px solid #cecccc;
     padding: 5px 19px;
     align-items: center**/
 }
@@ -950,8 +928,7 @@ a {
     transition: .6s ease-in-out all
 }
 
-#contact,
-#contact .section-fixed-bg {
+#contact, #contact .section-fixed-bg {
     height: 100%
 }
 
@@ -968,8 +945,7 @@ a {
     line-height: 20px
 }
 
-.news_item h2,
-.news_item p {
+.news_item h2, .news_item p {
     color: #333;
     text-align: left
 }
@@ -1008,22 +984,19 @@ a {
     transition: all .3s ease
 }
 
-.enlarge,
-.footer_link li,
-.map_point {
+.enlarge, .footer_link li, .map_point {
     transition: .3s ease-in-out all
 }
 
 #news_1, .news_pic {
     float: left;
-   /* background-image: url(images/news_1.jpg);
+    /* background-image: url(images/news_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;*/
     margin-right: 20px
 }
 
-#news_2,
-#news_3 {
+#news_2, #news_3 {
     background-image: url(images/solution.jpg)
 }
 
@@ -1051,8 +1024,7 @@ a {
     top: 150px
 }
 
-.contact_info_box,
-.contact_map_box {
+.contact_info_box, .contact_map_box {
     height: 100%;
     display: inline-block;
     position: relative
@@ -1097,11 +1069,7 @@ a {
     top: 5%
 }
 
-.footer_container,
-.footer_link,
-.footer_mail,
-.footer_mail h3,
-.info_pic {
+.footer_container, .footer_link, .footer_mail, .footer_mail h3, .info_pic {
     position: relative
 }
 
@@ -1172,9 +1140,7 @@ a {
     top: 0
 }
 
-.footer_link,
-.footer_link li,
-.footer_mail {
+.footer_link, .footer_link li, .footer_mail {
     display: inline-block
 }
 
@@ -1213,32 +1179,39 @@ a {
     color: #333;
     top: 3px
 }
+
 .contact-icons {
-	text-align: center;
-	height: 30px;
+    text-align: center;
+    height: 30px;
 }
+
 .contact-icon {
-	height: 25px;
+    height: 25px;
     width: 25px;
-	margin-top: 10px;
+    margin-top: 10px;
 }
+
 .highlight {
-	color: #00425a;
+    color: #00425a;
 }
+
 .underline {
-	border-top: 2px solid #00425a;
+    border-top: 2px solid #00425a;
     width: 100px;
     margin: 0 auto;
 }
+
 .about-title::after {
-    display: none !important; 
+    display: none !important;
 }
+
 .tooltip {
     position: relative;
     display: inline-block;
 }
 
 /* Tooltip text */
+
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 300px;
@@ -1248,19 +1221,18 @@ a {
     text-align: center;
     padding: 10px;
     border-radius: 6px;
-
     /* Position the tooltip text */
     position: absolute;
     z-index: 1;
     top: 0%;
     left: 0%;
-
     /* Fade in tooltip */
     opacity: 0;
     transition: opacity 0.3s;
 }
 
 /* Tooltip arrow */
+
 /* .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
@@ -1277,4 +1249,8 @@ a {
     color: #00425a;
     border-bottom: 1px solid #14415a;
     cursor: pointer;
+}
+
+.member-title {
+    font-size: 14px;
 }
